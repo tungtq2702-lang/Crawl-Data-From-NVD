@@ -52,6 +52,7 @@ def is_in_kev(CVE):
         return True
     else:
         return False
+    prinft(cve.get('cisaExploitAdd'))
 
 
 
